@@ -1,0 +1,32 @@
+﻿ 
+<div class="productDetailTemp">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <img class="productImg" ng-src="{{PTD.product.ImageUrl}}" />
+        </div>
+        <div class="col-md-5 titleBlock">
+            <h1>{{ PTD.product.Name }}</h1>
+            <h6>{{ PTD.product.Brand }}</h6>
+            <br />
+            <h5>{{ PTD.product.Price | currency }}</h5>
+            <h5>Active Area: {{PTD.product.WorkingArea}}</h5>
+            <h5>{{PTD.product.Word1}}&nbsp;{{PTD.product.Material}}{{PTD.product.Sensitivity}}</h5>
+            <h5>{{PTD.product.ResoultionMeasurement}}{{PTD.product.ResolutionSize}}</h5>
+            <br />
+            <div ng-controller="CartItemsController as CIC">
+                <button ng-click="CIC.addToCart(PTD.product.Id)" class="btn btn-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+            <h4>Description</h4>
+            <p>
+                {{ PTD.product.Description }}
+            </p>
+            <br />
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,19 @@
+﻿<!--------------------------------------Main--------------------------------------------------->
+
+<br />
+<div class="jumbotron printerBanner">
+    <h1 class="PLead">Printer Catalog</h1>
+    <p class="PLead">Print to the 3rd Dimention and beyond!</p>
+</div>
+
+<div id="productSection">
+    <div class="row">
+        <article class="product col col-med-6 col-md-offset-2" ng-repeat="product in proD.products | filter: {CategoryId: 7}">
+            <div class="col-md-3 thumbProduct">
+                <product-template></product-template>
+            </div>
+        </article>
+    </div>
+</div>
+
+<!-------------------------------------------------------------------------------------->

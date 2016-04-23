@@ -1,0 +1,14 @@
+﻿<div >
+    <a href="/Home/ProductDetail/{{product.Id}}" ng-click="getProductId(product)">
+        <div>
+            <img class="thumbnailPic" ng-src="{{product.ImageUrl}}" />
+        </div>
+        <div>
+            <label class="product-name">{{ product.Name }}</label>
+        </div>
+        <div>
+            <label class="product-price">{{ product.Price | currency }}</label>
+        </div>
+        <label class="product-brand">{{ product.Brand }}</label>
+    </a>
+</div> 

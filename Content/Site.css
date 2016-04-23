@@ -1,0 +1,206 @@
+﻿/*
+    My Color Plalete
+    https://color.adobe.com/website-color-theme-7736909/?comment=
+    #3C2F3E -Violet
+    #62808E -Blue
+    #C5D1D8 -Light Blue
+    #4B8C89 -Aqua
+    #008B7F - Teal
+*/
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #008B7F;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:   #C5D1D8;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.mainBanner {
+    height: 400px;
+    background-image: url('../Images/digi_pad_use3.jpg');
+}
+
+.jumbotron 
+{
+ padding: 108px 0 0 0;
+}
+
+.jumbotron h1, .jumbotron p
+{
+    text-align:center;
+    color: #C5D1D8;
+}
+
+.SaleBanner 
+{
+    height: 80px;
+    margin: 20px 10px;
+    background-color: #3C2F3E;
+    text-align: center;
+    border-radius: 30px;
+    color: #C5D1D8;
+}
+
+.salePitch
+{
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+.icon
+{
+ background-color: red;
+}
+
+.thumbProduct
+{
+ min-height: 285px;
+ background-color: white;
+ border-radius: 10px;
+ text-align: center;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+
+.thumbnailPic 
+{
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+/* Product Detail Page-------------------------------------------------------------------------------*/
+
+
+.productDetailTemp
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.productDetail
+{
+    padding-top: 20px;
+  margin: 20px 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.productImg
+{
+ max-width:400px;
+ border-radius: 20px;
+}
+
+.titleBlock
+{
+ margin-top: 40px;
+}
+
+.btn-cart
+{
+  color: #C5D1D8;
+  background-color: #3C2F3E;
+}
+
+.btn-cart:hover
+{
+  color: #3C2F3E;
+  background-color: #C5D1D8;
+}
+
+.btn-cart:active
+{
+  color: #C5D1D8;
+  background-color: #3C2F3E;
+}
+
+.mainFoot
+{
+ 
+ background-color: #101010;
+}
+
+.fo
+{
+ position: relative;
+}
+
+.timeStamp
+{
+    float: left;
+}
+
+.fo  ul li
+{
+  color: #C5D1D8;
+  margin:0;
+}
+
+.socialIcon
+{
+ margin-top: 7px;
+ float: right;
+ clear: right;
+ max-height: 40px;
+}
+
+/* Catalog and sections pages-------------------------------------------------------------------------------*/
+
+.catalogBanner {
+    height: 400px;
+    background-image: url('../Images/digi_pad_use2.jpg');
+}
+
+.printerBanner {
+    height: 400px;
+    background-image: url('../Images/3DArtThing.png');
+}
+
+.jumbotron .PLead {
+ color: #4d004d;
+ text-shadow: #ff00ff;
+}
+
+/* Cart and CheckOut pages-------------------------------------------------------------------------------*/
+
+.cartDetail
+{
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.cartItem
+{
+    display: inline-block;
+}
+
+.cartLine
+{
+    border: 1px solid  #4d4d4d;
+    margin:5px;
+}

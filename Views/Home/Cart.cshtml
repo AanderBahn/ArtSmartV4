@@ -1,0 +1,40 @@
+﻿<!------------------------------------------------------------------------>
+
+<br />
+<div class="row cartDetail" ng-controller="CartItemsController as CIC">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-7 titleBlock">
+            <h2>Your ArtSmart Cart</h2>
+            <br />
+        </div>
+    </div>
+
+    <div class="cartLine">
+    </div>  
+
+    <div class="cart">
+        <br />
+        <div class="cartRow row">
+            <div ng-repeat="cartItem in CIC.cartItems">
+                <cart-Line-Template></cart-Line-Template>
+            </div>
+        </div>
+
+        <div class="cartLine">
+        </div>  
+
+        <div class="checkout row">
+            <h4 class="col-md-offset-3 col-md-3">Total</h4>
+            <h4 class="col-md-offset-3 col-md-3">$$.$$</h4>
+        </div>
+
+        <div class="row">
+            <button type="button"  class="btn btn-info col-md-offset-9 col-md-1">Checkout </button>
+        </div>
+
+        <br />
+    </div>
+</div>
+
+
+    <!------------------------------------------------------------------------>

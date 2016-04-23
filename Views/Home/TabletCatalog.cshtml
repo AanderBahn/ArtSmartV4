@@ -1,0 +1,19 @@
+﻿ <!--------------------------------------Main--------------------------------------------------->
+
+<br />
+<div class="jumbotron catalogBanner">
+    <h1>Tablet Catalog</h1>
+    <p class="lead">Lets see what we got!</p>
+</div>
+
+<div id="productSection">
+    <div class="row">
+        <article class="product col col-med-6 col-md-offset-2" ng-repeat="product in proD.products | filter: {CategoryId: 1}">
+            <div class="col-md-3 thumbProduct">
+                <product-template></product-template>
+            </div>
+        </article>
+    </div>
+</div>
+
+<!-------------------------------------------------------------------------------------->

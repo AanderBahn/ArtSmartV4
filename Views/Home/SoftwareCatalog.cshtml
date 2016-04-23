@@ -1,0 +1,19 @@
+﻿<!--------------------------------------Main--------------------------------------------------->
+
+<br />
+<div class="jumbotron SoftwareBanner">
+    <h1 class="PLead">Software Catalog</h1>
+    <p class="PLead">GET'ER DUN!</p>
+</div>
+
+<div id="productSection">
+    <div class="row">
+        <article class="product col col-med-6 col-md-offset-2" ng-repeat="product in proD.products | filter: {CategoryId: 8}">
+            <div class="col-md-3 thumbProduct">
+                <product-template></product-template>
+            </div>
+        </article>
+    </div>
+</div>
+
+<!-------------------------------------------------------------------------------------->
